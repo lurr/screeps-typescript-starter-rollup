@@ -33,6 +33,11 @@ Run the following to setup the enviornment in the working directory
 $ npm install
 ```
 
+and then, to install gulp _globally_ (if you haven't already), you must run
+```bash
+$ npm install gulp -g
+```
+
 ### Set up your crededentials
 
 Create a copy of `screeps.example.js` and call it `screeps.js`
