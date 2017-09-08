@@ -18,6 +18,7 @@
     "source-map": "^0.5.6"
   },
   "scripts": {
-    "build": "rollup --c"
+    "build": "rollup --c",
+    "deploy": "gulp push"
   }
 }
