@@ -43,7 +43,7 @@ export function init(): Profiler {
       return "Profiler stopped";
     },
 
-    toString() {
+    help() {
        return "Profiler.start() - Starts the profiler\n" +
           "Profiler.stop() - Stops/Pauses the profiler\n" +
           "Profiler.status() - Returns whether is profiler is currently running or not\n" +
