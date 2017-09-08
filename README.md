@@ -55,7 +55,12 @@ module.exports = {
 
 ## Building your code
 
-To build, tree-shake, rollup your code, and deploy, run:
+To build, tree-shake & rollup your code run:
 ```bash
-$ npm run build
+$ gulp build
+```
+
+To build, tree-shake, rollup, and deploy, run:
+```bash
+$ gulp push
 ```
