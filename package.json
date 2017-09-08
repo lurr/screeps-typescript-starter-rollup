@@ -9,9 +9,9 @@
     "rollup-plugin-typescript": "^0.8.1",
     "rollup-watch": "^3.2.2",
     "typescript": "^2.3.3",
-	"@types/lodash": "^3.10.1",
-	"@types/node": "^7.0.27",
-	"@types/source-map": "^0.5.1"
+    "@types/lodash": "^3.10.1",
+    "@types/node": "^7.0.27",
+    "@types/source-map": "^0.5.1"
   },
   "dependencies": {
     "lodash": "^3.10.1",
