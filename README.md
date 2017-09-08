@@ -36,7 +36,7 @@ $ npm install
 ### Set up your crededentials
 
 Create a copy of `screeps.example.js` and call it `screeps.js`
-**NOTE**: This contains your crededentials. Do not commit this at all costs!
+**NOTE**: This contains your crededentials. Do not commit this at all costs! This is covered in the default `.gitignore`, so never remove it.
 
 In the new file, change `email`, `password`, `branch`, `host`, `port` and `secure` to your liking.
 
