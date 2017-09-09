@@ -32,11 +32,7 @@ Run the following to setup the enviornment in the working directory
 ```bash
 $ npm install
 ```
-
-and then, to install gulp _globally_ (if you haven't already), you must run
-```bash
-$ npm install gulp -g
-```
+**NOTE**: You may *optionally* install gulp globally with `npm install gulp -g`
 
 ### Set up your crededentials
 
@@ -62,10 +58,13 @@ module.exports = {
 
 To build, tree-shake & rollup your code run:
 ```bash
-$ gulp build
+$ npm run build
 ```
+(you can also use `gulp build` if you have it installed globally)
+
 
 To build, tree-shake, rollup, and deploy, run:
 ```bash
-$ gulp push
+$ npm run deploy
 ```
+(you can also use `gulp push` if you have it installed globally)
