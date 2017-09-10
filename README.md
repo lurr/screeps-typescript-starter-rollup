@@ -15,6 +15,7 @@ A starter kit for Screeps TypeScript-based projects, with rollup.
 - Automatic tree-shaking of your code - no more useless, dead code!
 - An easy-to-use profiler.
 - Automatic source-map generation.
+- Error Mapping, so you know exactly where that one error is!
 
 ### Requirements
 
