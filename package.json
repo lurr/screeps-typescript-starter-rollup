@@ -19,6 +19,7 @@
   },
   "scripts": {
     "build": "rollup --c",
-    "deploy": "gulp push"
+    "deploy": "gulp push",
+    "test": "rollup --c"
   }
 }
