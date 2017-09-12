@@ -1,4 +1,4 @@
-# screeps-typescript-starter-rollup
+# screeps-typescript-starter-rollup [![Build Status](https://travis-ci.org/lurr/screeps-typescript-starter-rollup.svg?branch=master)](https://travis-ci.org/lurr/screeps-typescript-starter-rollup)
 A starter kit for Screeps TypeScript-based projects, with rollup.
 
 -----
