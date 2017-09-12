@@ -7,5 +7,5 @@ let gulp      = require("gulp"),
 gulp.task("build", shell.task("npm run build"));
 
 gulp.task("push", ["build"], function() {
-	gulp.src("./dist/**/*").pipe(screeps(require("screeps.js")));
+	gulp.src("./dist/**/*").pipe(screeps(require("./screeps.js")));
 });
