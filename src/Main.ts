@@ -1,7 +1,7 @@
 
 // Profiler
-import * as Profiler from "libs/Profiler";
-import {ErrorMapper} from "libs/ErrorMapper";
+import * as Profiler from "./libs/Profiler";
+import {ErrorMapper} from "./libs/ErrorMapper";
 
 global.Profiler = Profiler.init();
 
