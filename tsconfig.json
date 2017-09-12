@@ -10,7 +10,7 @@
 		"noResolve": false,
 		"noUnusedParameters": true,
 		"noImplicitReturns": true,
-
+		"moduleResolution": "node",
 		"strict": true
 	},
 	"compileOnSave": false,
