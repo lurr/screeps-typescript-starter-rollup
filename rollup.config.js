@@ -25,10 +25,12 @@ delete tsconfig.module;
 tsconfig.typescript = require("typescript");
 
 export default {
-	entry: "src/Main.ts",
-	dest: "dist/main.js",
-	format: "cjs",
-	sourceMap: true,
+	input: "src/Main.ts",
+	output: {
+		format: "cjs",
+		file: "dist/main.js"
+	},
+	sourcemap: true,
 
 	plugins: [
 		resolve(),
