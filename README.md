@@ -7,7 +7,7 @@ A starter kit for Screeps TypeScript-based projects, with rollup.
 - First off, instead of using [webpack](https://webpack.js.org/), we use [rollup](https://rollupjs.org/)!
 - Secondly, instead of using [grunt](https://gruntjs.com/), we use [gulp](https://gulpjs.com/).
   - This means we also use [gulp-screeps](https://www.npmjs.com/package/gulp-screeps) instead of [grunt-screeps](https://www.npmjs.com/package/grunt-screeps).
-- Third, instead of using [Screeps-Typescript-Declarations](https://github.com/screepers/Screeps-Typescript-Declarations), we use the **strict** [screeps-typed](https://github.com/wmulligan/screeps-typed).
+- Third, instead of using [Screeps-Typescript-Declarations](https://github.com/screepers/Screeps-Typescript-Declarations), we use the **strict** [typed-screeps](https://github.com/screepers/typed-screeps).
 - Lastly, we are using [screeps-typescript-profiler](https://github.com/screepers/screeps-typescript-profiler) over [screeps-profiler](https://github.com/screepers/screeps-profiler).
 
 ## Features
