@@ -3,6 +3,7 @@
 import typescript from "rollup-plugin-typescript2";
 import commonjs from "rollup-plugin-commonjs";
 import resolve from "rollup-plugin-node-resolve";
+import replace from "rollup-plugin-replace";
 
 let tsconfig = require("./tsconfig.json").compilerOptions;
 
@@ -35,6 +36,12 @@ export default {
 	plugins: [
 		resolve(),
 		commonjs(),
+		replace({
+			delimiters: ['__', '__'],
+			values: {
+				PROFILER_ENABLED: "true"
+			}
+		}),
 		typescript(tsconfig),
 		exportSourceMaps()
 	]

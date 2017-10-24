@@ -28,17 +28,17 @@ That's it. Seriously.
 
 ### Installing the required packages
 
-Run the following to setup the enviornment in the working directory
+Run the following to setup the environment in the working directory
 
 ```bash
 $ npm install
 ```
 **NOTE**: You may *optionally* install gulp globally with `npm install gulp -g`
 
-### Set up your crededentials
+### Set up your credentials
 
 Create a copy of `screeps.example.js` and call it `screeps.js`
-**NOTE**: This contains your crededentials. Do not commit this at all costs! This is covered in the default `.gitignore`, so never remove it.
+**NOTE**: This contains your credentials. Do not commit this at all costs! This is covered in the default `.gitignore`, so never remove it.
 
 In the new file, change `email`, `password`, `branch`, `host`, `port` and `secure` to your liking.
 
@@ -69,3 +69,7 @@ To build, tree-shake, rollup, and deploy, run:
 $ npm run deploy
 ```
 (you can also use `gulp push` if you have it installed globally)
+
+
+## Extra Notes
+If you want to disable profiling all together, change the value of PROFILER_ENABLED from "true" to "false" in `rollup.config.js`.

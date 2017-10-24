@@ -1,7 +1,5 @@
 /* tslint:disable:ban-types */
 
-import {__PROFILER_ENABLED__} from "config/config";
-
 export function init(): Profiler {
   const defaults = {
     data: {},
